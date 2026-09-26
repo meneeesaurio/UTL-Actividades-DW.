@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Autor" content="Manuel Galvan">
+    <meta name="descripcion" content="Portafolio personal."> 
+    <meta name="keywords" content="portafolio personal, académico, web, diseño, desarrollo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Orbitron:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/estilo.css">
+    <title>Mi Portafolio personal</title>
+</head>
+
+<body>
+
+    <main class="main">
+        <header>
+            <a href="">
+                <img src="./imagenes/c8a6b40052b20e30b63dafd6a904b8da.jpg" 
+                     alt="logo portafolio" 
+                     class="logo">
+            </a>
+
+            <h2>Mi portafolio personal</h2>
+            <h2>Manuel Galvan Gutierrez</h2> 
+
+            <p> 
+                Estudiante de Desarrollo de Software Multiplataforma
+                interesado en la programación, el diseño web y la creación
+                de soluciones tecnológicas. 
+            </p>
+
+          <audio class="audio-proyecto" controls>
+             <source src="./audio/Pokemon Ruby_Sapphire_Emerald- Rustboro City.mp3" type="audio/mpeg">
+              Tu navegador no soporta la reproducción de audio.
+         </audio>
+
+            <nav class="navegacion">
+                <a href="#sobre-mi">Sobre mi</a>
+                <a href="#formacion">Formacion</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+
+        </header>
+
+
+        <section id="sobre-mi"> 
+
+            <div class="sobre"> 
+
+                <p class="saludo">Hola, soy</p> 
+
+                <h2>Manuel Galvan Gutierrez</h2> 
+
+                <p>
+                    Soy estudiante de Desarrollo de Software Multiplataforma. 
+                    Me interesa aprender programación y crear páginas web y 
+                    aplicaciones. Además, me gusta explorar nuevas tecnologías
+                    y mejorar mis habilidades en el desarrollo de software.
+                </p> 
+
+                <a href="#proyectos" class="boton">
+                    Ver mis proyectos
+                </a> 
+
+            </div> 
+
+        </section>
+
+
+        <section id="formacion"> 
+
+            <div class="inicio-texto"> 
+
+                <h2>Formación académica</h2> 
+
+                <p>
+                    Actualmente estudio la Licenciatura en Desarrollo de Software
+                    Multiplataforma. Ademas cuento con alto conocimiento en el idioma 
+                    ingles, ya que cuento con el certificado TOEFL ITP.
+                </p>
+
+                <p>
+                    Durante mi formación he aprendido programación,
+                    desarrollo web, bases de datos y diseño de aplicaciones.
+                </p> 
+
+            </div> 
+            <div class="imagenes-formacion">
+                    <img src="./imagenes/ETS_TOEFL_ITP_duskwinkle_rgb.png" alt="toefl.logo">
+            </div>
+
+        </section>
+
+
+        <section id="proyectos"> 
+
+            <div class="inicio-texto"> 
+
+                <h2>Mis proyectos</h2> 
+
+                <p>
+                    En esta sección presento algunos de los proyectos que he realizado
+                    durante mi formación académica.
+                </p> 
+
+                <ul> 
+                    <li>Proyecto de desarrollo web</li> 
+                    <li>Proyecto integrador basado en el cuidado del medio ambiente</li> 
+                </ul> 
+                <div class="imagenes-proyectos">
+                    <img src="./imagenes/proyecto1.png" alt="html.logo">
+                    <img src="./imagenes/proyecto2.png" alt="html.logo">
+                    <img src="./imagenes/proyecto3.png" alt="html.logo">
+                </div>
+
+                <h3 class="subtitulo">Video de mi proyecto</h3>
+
+                <video class="video-proyecto" controls>
+                   <source src="./video/2026-09-26 01-16-29 - Trim.mp4" type="video/mp4">
+                   Tu navegador no soporta la reproducción de video.
+                </video>
+            </div> 
+
+        </section>
+
+
+        <section id="habilidades"> 
+
+            <div class="inicio-texto"> 
+
+                <h2>Mis habilidades</h2> 
+
+                <p>
+                    Algunas de las habilidades y tecnologías que estoy aprendiendo son:
+                </p> 
+
+                <ul>
+                    <li><i class="fa-brands fa-html5"></i> HTML</li>
+                    <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+                    <li><i class="fa-brands fa-java"></i> Java</li>
+                    <li><i class="fa-solid fa-database"></i> MySQL</li>
+                    <li><i class="fa-solid fa-code"></i> Desarrollo web</li>
+</ul>
+                
+            </div>
+            <div class="imagenes-habilidades">
+                <img src="./imagenes/html.png" alt="html.logo">
+                <img src="./imagenes/css.png" alt="css.logo">
+                <img src="./imagenes/java.webp" alt="java.logo">
+            </div> 
+
+        </section>
+
+
+        <section id="contacto"> 
+          <div class="inicio-texto"> 
+        <h2>Contacto</h2> 
+
+        <p>
+            Si deseas conocer más sobre mis proyectos o
+            mi trabajo, puedes ponerte en contacto conmigo.
+        </p>
+
+        <form class="formulario">
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" placeholder="Escribe tu correo" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+
+            <button type="submit">Enviar mensaje</button>
+
+        </form>
+
+         </div> 
+</section>
+
+    </main>
+
+</body>
+</html>
